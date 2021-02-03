@@ -124,10 +124,19 @@
   });
 
   function php_email_form_submit(this_form, action, data) {
+
+    // var s = data.split('&');
+    // for (var i = 0; i < s.length; i++) {
+    //   var u = s[i].split('=');
+    //   urlp[u[0]] = u[1];
+    // }
+    // data = urlp;
     var name = data.name;
     var subject = data.subject;
     var email = data.email;
     var message = data.message;
+
+    console.log(data);
 
     $.ajax({
       type: "POST",
@@ -139,7 +148,7 @@
       },
       timeout: 40000
     }).done( function(msg){
-      if (msg.trim() == 'OK') {
+      if (msg.success) {
         this_form.find('.loading').slideUp();
         this_form.find('.sent-message').slideDown();
         this_form.find("input:not(input[type=submit]), textarea").val('');

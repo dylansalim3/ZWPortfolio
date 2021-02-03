@@ -3,9 +3,9 @@ var personalInfo = {
     name: "Lim Zhi Wei ",
     location:"Address",
     footer: "Footer Text",
-    linkedin: "",
-    facebook: "",
-    whatsapp: "",
+    linkedin: "https://www.google.com",
+    instagram: "https://www.google.com",
+    whatsapp: "https://www.google.com",
 }
 
 var aboutInfo = {

@@ -1,4 +1,4 @@
-$primaryColor:#0563bb;
+$primaryColor:#344366;
 $titleColor: #4fafe5;
 $whiteColor:#FFFFFF;
 
@@ -661,7 +661,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: $primaryColor;
   margin-bottom: 10px;
 }
 
