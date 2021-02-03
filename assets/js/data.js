@@ -1,6 +1,6 @@
 var personalInfo = {
-    websiteTitle: "Archi4Life",
-    name: "Lim Zhi Wei",
+    websiteTitle: "Elise Studio",
+    name: "Lim Zhi Wei ",
     location:"Address"
 }
 
@@ -13,27 +13,39 @@ var aboutInfo = {
     phone: "+6018-3155513",
     city: "Melaka",
     degree: "Bachelor Degree of Architecture",
-    email: "elise@gmail.com",
-    aboutDesc: "lorem ipsum"
+    email: "elizabeth-0319@hotmail.com",
+    aboutDesc: "•Passionate in computer literacy from pre-thinking on development to post production, Proactive person, eager to learn, explore conceptual drawing and creative thinking, consistently working on personal studio project to upgrade architecture design skills and technical skills. "
 }
 
 var skillsData = {
     skillsDesc: "Here are something...",
     skills: [
         {
-            name: "Lumion",
-            percentage: 100
-        },
-        {
             name: "AutoCAD",
             percentage: 90
         },
         {
             name: "SketchUp",
+            percentage: 90
+        },
+        {
+            name: "Lumion",
             percentage: 80
         },
         {
-            name: "Adobe Photoshop",
+            name: "Revit (BIM)",
+            percentage: 80
+        },
+        {
+            name: "V-ray",
+            percentage: 70
+        },
+        {
+            name: "Adobe Photoshop, Illustrator, Substance, InDesign, Premiere Pro",
+            percentage: 70
+        },
+        {
+            name: "Microsoft Office Word, Excel, PowerPoint, Project ",
             percentage: 90
         }
     ]
@@ -44,7 +56,7 @@ var resumeData = {
     summary:{
         summaryDesc:"Fun and innovative person",
         summaryList:[
-            "address",
+            "Melaka",
             aboutInfo.phone,
             aboutInfo.email
         ]
@@ -52,22 +64,63 @@ var resumeData = {
     education:[
         {
             name:"Bachelor Degree of Architecture",
-            year:"2017-2020",
-            institution:"Universiti Tunku Abdul Rahman",
-            desc:"Do a lot of things there"
+            year:"2018-2020",
+            institution:"Universiti Tunku Abdul Rahman (UTAR)",
+            desc:"Course Completed: Architecture Design 1,2,3,4,5,6 Construction Technology 1,2,3, Architectural Studio Drawing 1,2, Building Science 1,2, Building Service 1,2, Design Communication and CADD, Construction Drawing, Building Information Modeling (REVIT)"
+
+        },
+        {
+            name:"Architecture Project",
+            year:"2018 ",
+            institution:"Studio 1-2",
+            desc:"Sunway Velocity Kiosk Design, Hulu Langat Tower and Ranger Station Design"
+
+        },
+        {
+            name:"Architecture Project",
+            year:"2019 ",
+            institution:"Studio 3-4",
+            desc:"Nudge on Scale and Proportion, Node Six Spaces and Beyond, Nostalgia Cross Generation Habitats, Master Planning on Tasik Kenyir, Pulau Sah Kecil Chalet Design, Pulau Sah Kecil Eco-Resort Main Facilities",
+        },
+        {
+            name:"Architecture Project",
+            year:"2020 (Bronze Award Final Year Project Competition) ",
+            institution:"Studio 5-6",
+            desc:"Site Analysis of South Klang City Centre 1.0, Adaptive- Reuse Project Located at Heritage Area, The Royal Town of Klang 2.0 (Townscape Appraisal & Urban Intervention)-Hive Hub Community Centre"
+
+
         }
+
     ],
     professionalExperience:[
         {
-            name:"Architect Intern",
-            year:"2018 - 2019",
-            company:"D Sdn. Bhd.",
+            name:"Internship",
+            year:"2019",
+            company:"IdeaWorkshop Sdn. Bhd.",
             descList:[
                 "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
-                "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.",
+                "Lead in the construction drawing and submission drawing.",
                 "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
-                "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000"
+                "Site Visit (Heritage Building Rstoration Project Melaka)"
             ]
+        },
+        {
+            name:"Co-curricular",
+            year:"2019",
+            company:"Architecture Student Workshop 2019 (PAM) – xxx!!!nyala (29th May 2019 – 4th August 2019)",
+            descList:[
+                "Position: Secretary Head"
+                
+            ]
+         },   
+         {
+            name:"Co-curricular",
+            year:"2019",
+            company:"Architecture Student Prom Night Savannah 2019 UTAR/DASD/UAS (1st January 2019 – 11th March 2019)",
+            descList:[
+                "Position: Sponsorship Head"  
+
+            ]     
         }
     ]
 }
