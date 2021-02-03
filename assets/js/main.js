@@ -82,30 +82,6 @@
     }
   });
 
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '#mainNav',
-    offset: navHeight
-  });
-  /*--/ End Scrolling nav /--*/
-
-  /*--/ Navbar Menu Reduce /--*/
-  $(window).scroll(function () {
-    var pixels = 50;
-    var top = 1200;
-    if ($(this).scrollTop() > pixels) {
-      $('.navbar-expand-md').addClass('navbar-reduce');
-      $('.navbar-expand-md').removeClass('navbar-trans');
-    } else {
-      $('.navbar-expand-md').addClass('navbar-trans');
-      $('.navbar-expand-md').removeClass('navbar-reduce');
-    }
-    if ($(window).scrollTop() > top) {
-      $('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
-    } else {
-      $('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
-    }
-  });
   // Navigation active state on scroll
   // var nav_sections = $('section');
   // var main_nav = $('.nav-menu, #mobile-nav');
@@ -204,10 +180,13 @@
 
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
+    lazyLoad: true,
     autoplay: true,
     dots: true,
     loop: true,
     items: 1
   });
+
+
 
 })(jQuery);
