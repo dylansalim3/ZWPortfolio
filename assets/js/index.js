@@ -134,6 +134,8 @@ $(".instagram").attr('href', personalInfo.instagram);
 $(".linkedin").attr('href', personalInfo.linkedin);
 $(".whatsapp").attr('href', personalInfo.whatsapp);
 
+$('#resume-link').attr('href', personalInfo.resume);
+
 
 //Footer
 $("#footer-text").text(personalInfo.footer);

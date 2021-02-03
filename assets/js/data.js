@@ -6,6 +6,7 @@ var personalInfo = {
     linkedin: "https://www.google.com",
     instagram: "https://www.google.com",
     whatsapp: "https://www.google.com",
+    resume:"https://github.com/dylansalim3/ZWPortfolio/raw/master/resume/Lim_Zhi_Wei-Resume.pdf"
 }
 
 var aboutInfo = {
