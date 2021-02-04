@@ -106,7 +106,7 @@ var resumeData = {
                 "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
                 "Lead in the construction drawing and submission drawing.",
                 "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
-                "Site Visit (Heritage Building Restoration Project Melaka)"
+                "Heritage Building Restoration Project Melaka"
             ]
         },
         {
@@ -123,7 +123,15 @@ var resumeData = {
             year:"2019",
             company:"Architecture Student Prom Night Savannah 2019 UTAR/DASD/UAS (1st January 2019 – 11th March 2019)",
             descList:[
-                "Position: Sponsorship Head"  
+                "Position: Sponsorship Head" 
+            ]
+        },   
+         {
+            name:"Personal Project",
+            year:"Dec 2020- Jan 2021",
+            company:"Work Room Design, Furniture Design, Community Space Post-Production",
+            descList:[
+                "Design Concept, 2D&3D Rendering, Construction Plan, HDR Video "         
 
             ]     
         }
@@ -134,64 +142,455 @@ var portfolioData = {
     portfolioDesc: "Here is my portfolio",
     filterType: {
         A: {
-            shortName: "Web",
-            name: "Web Development"
+            shortName: "Model",
+            name: "Scale Modeling"
         },
         B: {
-            shortName: "Card",
-            name: "Card Development"
+            shortName: "Project",
+            name: "Studio Project"
         },
         C: {
-            shortName: "Mobile",
-            name: "Mobile Development"
+            shortName: "Drawing",
+            name: "Manual Drawing"
         }
     },
     portfolioContentList: [
         {
-            shortName: "App 1",
-            name:"Application 1",
+            shortName: "Sense",
+            name:"Scale and Proportion",
             type: "A",
             galleryPhoto: "assets/img/portfolio/portfolio-1.jpg",
             photoSlideshowList:[
                 "assets/img/portfolio/portfolio-details-1.jpg",
                 "assets/img/portfolio/portfolio-details-2.jpg",
-                "assets/img/portfolio/portfolio-details-3.jpg"
+                
             ],
-            client:"Company X",
-            date:"19 Jan 2020",
+            client:"Garden Meet Point (Space Quality） ",
+            date:"2019",
             url:"www.google.com",
-            desc:"Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
+            desc:"This project is a small practice during studio session. The aim of this project is to create space quality within a small area with the meet of scale and proportion."
         },
         {
-            shortName: "App 2",
-            name:"Application 2",
+            shortName: "Space",
+            name:"Space Quality",
+            type: "A",
+            galleryPhoto: "assets/img/portfolio/portfolio-PA2.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/portfolio-details-a2-2.jpg",
+                "assets/img/portfolio/portflio-details-a2-1.jpg",
+                "assets/img/portfolio/20.jpg",
+                "assets/img/portfolio/portflio-details-a2-3.jpg"
+            ],
+            client:"Serene Space ",
+            date:"2019",
+            url:"www.google.com",
+            desc:"The Building of 900 meter squares included with selected accommodation for the three generations, grandparents, parents and children. The site is located at a hillside of SAK DATO TEMPLE overlooking the whole village."
+        },
+        {
+            shortName: "Creator",
+            name:"Space Creation",
+            type: "A",
+            galleryPhoto: "assets/img/portfolio/portfolio3 -1.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/portfolio 3.jpg"
+                
+            ],
+            client:"Wood Block Spaces ",
+            date:"2019",
+            url:"www.google.com",
+            desc:"The Building of 1 meter is created by using wooden block. This studio practice aim to enhance and create spaces."
+        },
+        {
+            shortName: "Function",
+            name:"Nature behaviour ",
+            type: "A",
+            galleryPhoto: "assets/img/portfolio/7.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/1.jpg",
+                "assets/img/portfolio/14.jpg",
+                "assets/img/portfolio/15.jpg",
+                "assets/img/portfolio/16.jpg"
+                
+            ],
+            client:" Flexia",
+            date:"2019",
+            url:"www.google.com",
+            desc:"The Building of Ranger Station located at the Recreational Forest, Hulu Langat with fuction to protect and do research on the surrounding nature. There are three main spaces in the building, Sight Seeing on Ground Area, Research Lab and Gallery "
+        },
+        {
+        shortName: "Function",
+            name:"Nature behaviour ",
+            type: "A",
+            galleryPhoto: "assets/img/portfolio/9.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/8.jpg",
+                "assets/img/portfolio/PRESENTATION BOARD A2(1).jpg",
+                "assets/img/portfolio/PRESENTATION BOARD A2 (2).jpg",
+                "assets/img/portfolio/21.jpg"
+                
+            ],
+            client:" Meander of River",
+            date:"2019",
+            url:"www.google.com",
+            desc:"The Building of Ranger Tower located at the Recreational Forest, Hulu Langat with fuction to protect and do research on the surrounding nature. Design a look out tower known as 'River' which has taken its full meandering pattern through the idyllic landscape. The structure extends with continual steel bar as support system. The idea of this shape seeks to blend with features of the landscape while offering additinal functionality to the forest."
+        },
+        {
+        shortName: "Pattern",
+            name:"Scale and Proportion",
+            type: "A",
+            galleryPhoto: "assets/img/portfolio/sdsd.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/sd.jpg"
+                
+            ],
+            client:"Crop pattern",
+            date:"2019",
+            url:"www.google.com",
+            desc:"To study the crop pattern with the precedent study of China Architecture"
+        },
+        {
+        shortName: "Shape",
+            name:"Shape and Spaces",
+            type: "A",
+            galleryPhoto: "assets/img/portfolio/WhatsApp Image 2020-09-20 at 11.16.07 AM (2).jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/WhatsApp Image 2020-09-20 at 11.16.07 AM (3).jpg",
+                "assets/img/portfolio/WhatsApp Image 2020-09-20 at 11.16.07 AM (1).jpg",
+                "assets/img/portfolio/WhatsApp Image 2020-09-20 at 11.16.07 AM.jpg"
+            ],
+            client:"Shape Study",
+            date:"2018",
+            url:"www.google.com",
+            desc:"Concept Model of Hive Hub Community Space  "
+        },
+        {
+        shortName: "Shape",
+            name:"Shape and Spaces",
+            type: "A",
+            galleryPhoto: "assets/img/portfolio/WhatsApp Image 2020-09-20 at 11.16.07 AM (4).jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/WhatsApp Image 2020-09-20 at 11.16.08 AM (3).jpg",
+                "assets/img/portfolio/WhatsApp Image 2020-09-20 at 11.16.08 AM (4).jpg",
+                "assets/img/portfolio/WhatsApp Image 2020-09-20 at 11.16.08 AM (8).jpg"
+            ],
+            client:"Shape Study",
+            date:"2018",
+            url:"www.google.com",
+            desc:"Final Model of Hive Hub Community Space  "
+        },
+        {
+            shortName: "The Seed",
+            name:"Eco Learning Resort. Training Centre",
             type: "B",
-            galleryPhoto: "assets/img/portfolio/portfolio-2.jpg",
+            galleryPhoto: "assets/img/portfolio/tambah max super.jpg",
             photoSlideshowList:[
-                "assets/img/portfolio/portfolio-details-1.jpg",
-                "assets/img/portfolio/portfolio-details-2.jpg",
-                "assets/img/portfolio/portfolio-details-3.jpg"
+                "assets/img/portfolio/Presentation1.jpg",
+                "assets/img/portfolio/3.jpg",
+                "assets/img/portfolio/Presentation1C.jpg"
             ],
-            client:"Company Y",
-            date:"19 Jan 2019",
+            client:"Local Attraction",
+            date:"2019",
             url:"www.google.com",
-            desc:"Autem WRFGWRFG rro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
+            desc:"The SEED created by the sacred geometry. Inspired by the six day of creatino as a seed of life. Pulau Sah Kecil located at the Terengganu with golden flora and fauna is an ideal of natural gateway. The concept of THE SEED will be represented into three parts:BORN, GROW AND REBORN. Each of the zoning will have respective identity colour of green, brown and white. The building materials mainly used from local with biophilic design concepts."
         },
         {
-            shortName: "App 3",
-            name:"Application 3",
-            type: "C",
-            galleryPhoto: "assets/img/portfolio/portfolio-3.jpg",
+            shortName: "Structure",
+            name:"Cantiliver",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/PERPSEC WHOLE.jpg",
             photoSlideshowList:[
-                "assets/img/portfolio/portfolio-details-1.jpg",
-                "assets/img/portfolio/portfolio-details-2.jpg",
-                "assets/img/portfolio/portfolio-details-3.jpg"
+                "assets/img/portfolio/LEFT ELE.jpg",
+                "assets/img/portfolio/REAR ELE.jpg",
+                "assets/img/portfolio/PLAN VIEW.jpg"
             ],
-            client:"Company Y",
-            date:"19 Jan 2018",
-            url:"www.A.com",
-            desc:"Autem FCW GERTH. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
+            client:"Local Attraction",
+            date:"2019",
+            url:"www.google.com",
+            desc:"The SEED created by the sacred geometry. Inspired by the six day of creatino as a seed of life. Pulau Sah Kecil located at the Terengganu with golden flora and fauna is an ideal of natural gateway. The concept of THE SEED will be represented into three parts:BORN, GROW AND REBORN. Each of the zoning will have respective identity colour of green, brown and white. The building materials mainly used from local with biophilic design concepts."
         },
+        {
+            shortName: "Transmute",
+            name:"Senior and Youth Community Centre",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/DROP OFF.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/ENTARANCE 2.jpg",
+                "assets/img/portfolio/NICE LAH.jpg",
+                "assets/img/portfolio/AERAIL VIEW.jpg",
+                "assets/img/portfolio/dadas.jpg",
+                "assets/img/portfolio/Presentasdtion1.jpg",
+                "assets/img/portfolio/sadas.jpg",
+            ],
+            client:"Community",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Klang South City Centre is a city that undergoing aging process. Many Youngster are more willingly to move out from this area to find a job opportunity. This area had reached to the stable state as no development taking place. The chosen site B is one of the starting point that havong potential value to be transmute not only the building itself, also the whole community. Senior citizen and youth project aim to revitalize the community from the pass and reimagine the possibilities of the future together with the senior and the youth.    "
+        },
+        {
+            shortName: "Community Space",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/sky view 3.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/pasar 1）Photoshop.jpg",
+                "assets/img/portfolio/sky view 3.jpg"
+                
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"The hexagonal shape represent the bonding community. Radial shape as a centre meeting zone. Hive Hub is a Community centre which benefit to the local people and tourists that visit North Klang. The centre function as education hub, sports area & co-working space. The aim of Hive Hub is to encourage the community to gather together, learn and shop at one station. "
+        },
+        {
+            shortName: "Piazza",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/garden2 photoshop.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/garden2 photoshop.jpg"
+                
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Centre Meeting zone at the front entrance  "
+        },
+        {
+            shortName: "Waiting Area",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/WAITING 3 PHOTOSHOP.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/WAITING 3 PHOTOSHOP.jpg",
+                "assets/img/portfolio/WAITING AREA1psd.jpg"
+                
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Waiting Area located at the front entrance as a buffer zone to the Hive Hub community centre  "
+        },
+        {
+            shortName: "Public Market",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/PUBLIC MARKETpsd.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/PUBLIC MARKETpsd.jpg"
+                  
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Public Market provided to the Hive Hub Community Centre as to benefit the surrounding neighbourhood."
+        },
+        {
+            shortName: "Food Market",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/food market2 psd.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/food market2 psd.jpg"
+                  
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Food Market located near the front entrance benefit to the neighbourhood  ."
+        },
+        {
+            shortName: "Hive Cafe",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/cafe 4_2psd - Photo.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/cafe 4_10psd - Photo.jpg",
+                "assets/img/portfolio/cafe 4_3psd - Photo.jpg",
+                  
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Mezzanine Floor construction with open kitchen style cafeteria."
+        },
+        {
+            shortName: "Basketball Court",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/basketball psd.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/basketball psd.jpg",
+                "assets/img/portfolio/basketball view 2rd floor psd - Photo.jpg"
+                  
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Basketball court as the attraction point for the youth nearby the neighbourhood."
+        },
+        {
+            shortName: "Reception",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/RECEPTION PSD.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/RECEPTION PSD.jpg"
+                  
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Second Floor Reception as a semi-private area for co-working space located nearby the vertical circulation."
+        },
+        {
+            shortName: "Exterior Event Space",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/exterior event space psd - Photo.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/exterior event space psd - Photo.jpg"
+                      
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Free and balance space without seperated by wall created at the second floor of the Hive Hub Community Space."
+        },
+        {
+            shortName: "Multipurpose Hall",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/CO-WORKING_22psd - Photo.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/CO-WORKING_22psd - Photo.jpg"
+                      
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Open Ceiling design to create opportunity of height extend and increase natural light."
+        },
+        {
+            shortName: "Corridor",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/corridor gf PSD.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/3RD FLOR CORRIDOR PSD - Photo.jpg",
+                "assets/img/portfolio/corridor gf PSD.jpg.jpg"
+                      
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:" wide walkway as to create smoother circulation to the Hive Hub ."
+        },
+        {
+            shortName: "Bicycle pathway",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/BICYCLE 1PSD.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/BICYCLE 1PSD.jpg"
+                       
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:" Bicycle Pathway provide to encourage the neighbourhood to do exercise and promote the benefit to nature."
+        },
+         {
+            shortName: "Bridge",
+            name:"Hive Hub",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/bridge psd - Photo.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/bridge psd - Photo.jpg"
+                       
+            ],
+            client:"Local Attraction",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Construct with light weight steel support and polycarbonate facade as to provide sight seeing area to the community."
+        },
+         {
+            shortName: "Work Room",
+            name:"Renovation Project & Furniture Design",
+            type: "B",
+            galleryPhoto: "assets/img/portfolio/wah1.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/wah1.jpg",
+                "assets/img/portfolio/Lumion 10 Pro 正版授权.jpg",
+                "assets/img/portfolio/Lumion 10 Pro 正版授权BFF.jpg",
+                       
+            ],
+            client:"20 YEARS DOUBLE STOREY HOUSE",
+            date:"2020",
+            url:"www.google.com",
+            desc:"Remain the existing, only design for work space and wardrobes design."
+        },
+        {
+            shortName: "REVIT",
+            name:"BIM Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/2.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/2.jpg",
+                "assets/img/portfolio/17.jpg"
+               
+            ],
+            client:"Studio Practice",
+            date:"2020",
+            url:"www.A.com",
+            desc:"Single-Storey House Design."
+        },
+        {
+            shortName: "REVIT",
+            name:"BIM Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/18.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/dsfdsfdsf.jpg",
+                 "assets/img/portfolio/sdfdsf.jpg",
+                "assets/img/portfolio/sdfsdfdsfsd.jpg"
+               
+            ],
+            client:"Studio Practice",
+            date:"2020",
+            url:"www.A.com",
+            desc:"Single-Storey House Design."
+        },
+        {
+            shortName: "Manual",
+            name:"Exploded Axonometric",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/EXPLODED.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/EXPLODED.jpg"
+                 
+               
+            ],
+            client:"Studio Practice",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Scale Manual Drawing."
+        },
+        {
+            shortName: "Manual",
+            name:"Manual Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/Untitled-1.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/Untitled-1.jpg"
+                 
+               
+            ],
+            client:"Studio Practice",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Section Detail Drawing."
+        }
+
 
     ]
 }
