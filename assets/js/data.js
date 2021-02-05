@@ -3,7 +3,7 @@ var personalInfo = {
     name: "Lim Zhi Wei  ",
     location:"Address",
     footer: "Nature . Culture",
-    linkedin: "https://www.google.com",
+    linkedin: "https://www.linkedin.com/in/zhi-wei0319/",
     instagram: "https://www.google.com",
     whatsapp: "https://www.google.com",
     resume:"https://github.com/dylansalim3/ZWPortfolio/raw/master/resume/Lim_Zhi_Wei-Resume.pdf"
@@ -477,7 +477,7 @@ var portfolioData = {
             galleryPhoto: "assets/img/portfolio/corridor gf PSD.jpg",
             photoSlideshowList:[
                 "assets/img/portfolio/3RD FLOR CORRIDOR PSD - Photo.jpg",
-                "assets/img/portfolio/corridor gf PSD.jpg.jpg"
+                "assets/img/portfolio/corridor gf PSD.jpg"
                       
             ],
             client:"Local Attraction",
