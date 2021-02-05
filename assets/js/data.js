@@ -299,14 +299,14 @@ var portfolioData = {
             type: "B",
             galleryPhoto: "assets/img/portfolio/PERPSEC WHOLE.jpg",
             photoSlideshowList:[
-                "assets/img/portfolio/LEFT ELE.jpg",
-                "assets/img/portfolio/REAR ELE.jpg",
-                "assets/img/portfolio/PLAN VIEW.jpg"
+                "assets/img/portfolio/PERPSEC WHOLE.jpg",
+                "assets/img/portfolio/PLAN VIEW.jpg",
+                "assets/img/portfolio/RIGHT ELE (2).jpg"
             ],
-            client:"Local Attraction",
+            client:"Studio Practice",
             date:"2019",
             url:"www.google.com",
-            desc:"The SEED created by the sacred geometry. Inspired by the six day of creatino as a seed of life. Pulau Sah Kecil located at the Terengganu with golden flora and fauna is an ideal of natural gateway. The concept of THE SEED will be represented into three parts:BORN, GROW AND REBORN. Each of the zoning will have respective identity colour of green, brown and white. The building materials mainly used from local with biophilic design concepts."
+            desc:"Study of structural cantiliver load."
         },
         {
             shortName: "Transmute",
@@ -420,7 +420,7 @@ var portfolioData = {
             galleryPhoto: "assets/img/portfolio/basketball psd.jpg",
             photoSlideshowList:[
                 "assets/img/portfolio/basketball psd.jpg",
-                "assets/img/portfolio/basketball view 2rd floor psd - Photo.jpg"
+                "assets/img/portfolio/basketball view 2rd floor psd.jpg"
                   
             ],
             client:"Local Attraction",
@@ -558,7 +558,7 @@ var portfolioData = {
             client:"Studio Practice",
             date:"2020",
             url:"www.A.com",
-            desc:"Single-Storey House Design."
+            desc:"Commercial Building Design using REVIT software."
         },
         {
             shortName: "Manual",
