@@ -1,8 +1,8 @@
 var personalInfo = {
     websiteTitle: "Elise Studio",
-    name: "Lim Zhi Wei ",
+    name: "Lim Zhi Wei  ",
     location:"Address",
-    footer: "Footer Text",
+    footer: "Nature . Culture",
     linkedin: "https://www.google.com",
     instagram: "https://www.google.com",
     whatsapp: "https://www.google.com",
@@ -589,7 +589,219 @@ var portfolioData = {
             date:"2020",
             url:"www.A.com",
             desc:" Section Detail Drawing."
-        }
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/AXONOMETRIC.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/AXONOMETRIC.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Exploded Axonometric."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/SEXTION CUT PERSPECTIVE.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/SEXTION CUT PERSPECTIVE.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Section Perspective ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/gf.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/gf.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Ground Floor Plan ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/1_20.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/1_20.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" 1:20  Section Plan ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/2rd floor detail.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/2rd floor detail.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" 1:5 Detail Section Plan ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/front ele.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/front ele.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Front Eelevation Plan ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/1st flr.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/1st flr.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" First Floor Plan ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/REAR ELE.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/REAR ELE.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Rear Elevation Plan ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/2rd flooor.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/2rd flooor.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Second Floor Plan ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/LEFT ELE.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/LEFT ELE.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Left Elevation ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/right ele.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/right ele.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Right Elevation ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/ss.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/ss.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Exploded Detail Perspective(Steel Glass Railing) ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/steel deck detail.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/steel deck detail.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Steel Decking Detail Section Plan ."
+        },
+        {
+            shortName: "FYP Board",
+            name:"Post Production Drawing",
+            type: "C",
+            galleryPhoto: "assets/img/portfolio/3rd floor.jpg",
+            photoSlideshowList:[
+                "assets/img/portfolio/3rd floor.jpg"
+                 
+               
+            ],
+            client:"Hive Hub Community Centre",
+            date:"2020",
+            url:"www.A.com",
+            desc:" Third Floor Plan ."
+        },
+       
+
 
 
     ]
