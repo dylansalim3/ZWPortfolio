@@ -167,7 +167,7 @@ var portfolioData = {
             ],
             client:"Garden Meet Point (Space Quality） ",
             date:"2019",
-            url:"www.google.com",
+            url:"https://www.instagram.com/hoseh_bor/",
             desc:"This project is a small practice during studio session. The aim of this project is to create space quality within a small area with the meet of scale and proportion."
         },
         {
