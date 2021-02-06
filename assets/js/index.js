@@ -132,9 +132,11 @@ $("#contact-phone").text(aboutInfo.phone);
 
 $(".instagram").attr('href', personalInfo.instagram);
 $(".linkedin").attr('href', personalInfo.linkedin);
-$(".whatsapp").attr('href', personalInfo.whatsapp);
+$(".kuula").attr('href', personalInfo.kuula);
 
 $('#resume-link').attr('href', personalInfo.resume);
+
+$('#portfolio-link').attr('href', personalInfo.portfolio);
 
 
 //Footer

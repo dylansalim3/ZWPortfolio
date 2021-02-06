@@ -5,8 +5,9 @@ var personalInfo = {
     footer: "Nature . Culture",
     linkedin: "https://www.linkedin.com/in/zhi-wei0319/",
     instagram: "https://www.instagram.com/hoseh_bor/",
-    whatsapp: "https://kuula.co/share/72l6b?fs=1&vr=0&sd=1&thumbs=1&info=1&logo=1",
-    resume:"https://github.com/dylansalim3/ZWPortfolio/raw/master/resume/Lim_Zhi_Wei-Resume.pdf"
+    kuula: "https://kuula.co/share/72l6b?fs=1&vr=0&sd=1&thumbs=1&info=1&logo=1",
+    resume:"https://github.com/dylansalim3/ZWPortfolio/raw/master/assets/raw/.pdf",
+    portfolio:"https://github.com/dylansalim3/ZWPortfolio/raw/master/assets/raw/.pdf"
 }
 
 var aboutInfo = {
