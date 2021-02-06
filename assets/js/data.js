@@ -4,7 +4,7 @@ var personalInfo = {
     location:"Address",
     footer: "Nature . Culture",
     linkedin: "https://www.linkedin.com/in/zhi-wei0319/",
-    instagram: "https://www.google.com",
+    instagram: "https://www.instagram.com/hoseh_bor/",
     whatsapp: "https://www.google.com",
     resume:"https://github.com/dylansalim3/ZWPortfolio/raw/master/resume/Lim_Zhi_Wei-Resume.pdf"
 }
