@@ -62,12 +62,13 @@ skillsData.skills.forEach(function ({name, percentage}, index) {
     }
 })
 
-//Resume Date
+//Resume Data
 $('#resumeDesc').text(resumeData.resumeDesc);
 resumeData.summary.summaryList.forEach(function (item) {
     var elem = `<li>${item}</li>`;
     $("#ul-summary-list").append(elem);
 });
+
 resumeData.education.forEach(function ({name, year, institution, desc}) {
     var elem = `<div class="resume-item">
                         <h4>${name}</h4>
@@ -96,7 +97,7 @@ $('#filter-a').text(filterTypes['A'].shortName);
 $('#filter-b').text(filterTypes['B'].shortName);
 $('#filter-c').text(filterTypes['C'].shortName);
 
-
+var portfolioElem = "";
 portfolioData.portfolioContentList.forEach(function ({shortName, type, galleryPhoto}, index) {
     var filterClass = "filter-a";
     if (type === 'B') {
@@ -105,7 +106,7 @@ portfolioData.portfolioContentList.forEach(function ({shortName, type, galleryPh
         filterClass = "filter-c";
     }
 
-    var elem = `<div class="col-lg-4 col-md-6 portfolio-item ${filterClass}">
+    portfolioElem += `<div class="col-lg-4 col-md-6 portfolio-item ${filterClass}">
                     <div class="portfolio-wrap">
                         <img src="${galleryPhoto}" class="img-fluid" alt="">
                         <div class="portfolio-info">
@@ -122,9 +123,18 @@ portfolioData.portfolioContentList.forEach(function ({shortName, type, galleryPh
                     </div>
                 </div>`
 
-    $('#portfolio-content').append(elem);
+    
 });
+$('#portfolio-content').append(portfolioElem);
 
+function load(img)
+{
+  img.fadeOut(0, function() {
+    img.fadeIn(1000);
+  });
+}
+
+$('.lazyload').lazyload({load: load})
 
 $('#contact-address').text(personalInfo.location);
 $("#contact-email").text(aboutInfo.email);
