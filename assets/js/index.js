@@ -127,14 +127,17 @@ portfolioData.portfolioContentList.forEach(function ({shortName, type, galleryPh
 });
 $('#portfolio-content').append(portfolioElem);
 
-function load(img)
-{
-  img.fadeOut(0, function() {
-    img.fadeIn(1000);
-  });
-}
+// function load(img)
+// {
+//   img.fadeOut(0, function() {
+//     img.fadeIn(1000);
+//   });
+// }
 
-$('.lazyload').lazyload({load: load})
+// $('.lazyload').lazyload({load: load})
+const observer = lozad();
+observer.observe();
+
 
 $('#contact-address').text(personalInfo.location);
 $("#contact-email").text(aboutInfo.email);
