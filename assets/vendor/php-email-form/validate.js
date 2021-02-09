@@ -145,16 +145,28 @@
     var email = deserializedData.email;
     var message = deserializedData.message;
 
+
+    var receiverEmail = "elizabeth-0319@hotmail.com";
+    var emailSubject = `Elise Studio: New message from portfolio`;
+    var emailBody = `${message} sent by ${name} via ${email}`;
+
+
+    // data: {
+    //   "senderName":name,
+    //   "senderSubject":subject,
+    //   "senderEmail":email,
+    //   "senderMessage":message,
+    //   "receiverEmail":"dylansalim015@gmail.com",
+    //   "portfolioTitle":"Elise Studio"
+    // }
+
     $.ajax({
       type: "POST",
       url: action,
       data: {
-        senderName:name,
-        senderSubject:subject,
-        senderEmail:email,
-        senderMessage:message,
-        receiverEmail:"dylansalim015@gmail.com",
-        portfolioTitle:"Elise Studio"
+        "email":receiverEmail,
+            "emailSubject":emailSubject,
+            "emailBody":emailBody
       },
       timeout: 40000
     }).done( function(msg){

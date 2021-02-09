@@ -97,6 +97,8 @@ $('#filter-a').text(filterTypes['A'].shortName);
 $('#filter-b').text(filterTypes['B'].shortName);
 $('#filter-c').text(filterTypes['C'].shortName);
 
+$('.lazyload').lazyload({effect : "fadeIn"})
+
 var portfolioElem = "";
 portfolioData.portfolioContentList.forEach(function ({shortName, type, galleryPhoto}, index) {
     var filterClass = "filter-a";
@@ -134,9 +136,8 @@ $('#portfolio-content').append(portfolioElem);
 //   });
 // }
 
-// $('.lazyload').lazyload({load: load})
-const observer = lozad();
-observer.observe();
+// const observer = lozad();
+// observer.observe();
 
 
 $('#contact-address').text(personalInfo.location);
