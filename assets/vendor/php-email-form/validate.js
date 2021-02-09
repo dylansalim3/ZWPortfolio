@@ -149,7 +149,7 @@
       type: "POST",
       url: action,
       data: {
-        "email":"dylansalim015@gmail.com",
+        "email":"elizabeth-0319@hotmail.com",
         "emailSubject":`Elise Studio: ${subject} from ${email}`,
         "emailBody":`
         <!doctype html>
