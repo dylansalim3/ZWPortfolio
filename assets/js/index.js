@@ -97,7 +97,37 @@ $('#filter-a').text(filterTypes['A'].shortName);
 $('#filter-b').text(filterTypes['B'].shortName);
 $('#filter-c').text(filterTypes['C'].shortName);
 
-$('.lazyload').lazyload({effect : "fadeIn"})
+// $('.lazyload').lazyload({effect : "fadeIn"})
+
+document.addEventListener("DOMContentLoaded", function() {
+    var lazyloadImages = document.querySelectorAll("img.lazy");    
+    var lazyloadThrottleTimeout;
+    
+    function lazyload () {
+      if(lazyloadThrottleTimeout) {
+        clearTimeout(lazyloadThrottleTimeout);
+      }    
+      
+      lazyloadThrottleTimeout = setTimeout(function() {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function(img) {
+              if(img.offsetTop < (window.innerHeight + scrollTop)) {
+                img.src = img.dataset.src;
+                img.classList.remove('lazy');
+              }
+          });
+          if(lazyloadImages.length == 0) { 
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+      }, 20);
+    }
+    
+    document.addEventListener("scroll", lazyload);
+    window.addEventListener("resize", lazyload);
+    window.addEventListener("orientationChange", lazyload);
+  });
 
 var portfolioElem = "";
 portfolioData.portfolioContentList.forEach(function ({shortName, type, galleryPhoto}, index) {
@@ -110,7 +140,7 @@ portfolioData.portfolioContentList.forEach(function ({shortName, type, galleryPh
 
     portfolioElem += `<div class="col-lg-4 col-md-6 portfolio-item ${filterClass}">
                     <div class="portfolio-wrap">
-                        <img src="${galleryPhoto}" class="img-fluid" alt="">
+                        <img data-src="${galleryPhoto}" loading="lazy" class="img-fluid lazy" alt="">
                         <div class="portfolio-info">
                             <h4>${shortName}</h4>
                             <p>${filterTypes[type].shortName}</p>
