@@ -51,7 +51,7 @@ var skillsData = {
             percentage: 70
         },
         {
-            name: "Microsoft Office Word, Excel, PowerPoint, Project ",
+            name: "Microsoft Word, Excel, PowerPoint, Project ",
             percentage: 90
         }
     ]
