@@ -47,7 +47,7 @@ var skillsData = {
             percentage: 70
         },
         {
-            name: " Photoshop, Illustrator, Substance, PremierePro， InDesign",
+            name: " Photoshop, Ai, Substance, PremierePro， InDesign",
             percentage: 70
         },
         {
