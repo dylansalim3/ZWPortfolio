@@ -180,44 +180,8 @@ $(".kuula").attr('href', personalInfo.kuula);
 
 $('#resume-link').attr('href', personalInfo.resume);
 
-$('#portfolio-link').attr('href', personalInfo.portfolio);
+$('.portfolio-link').attr('href', personalInfo.portfolio);
 
 
 //Footer
 $("#footer-text").text(personalInfo.footer);
-
-$(document).ready(function () {
-    $('.php-email-form').on('submit', function (event) {
-        event.preventDefault(); // Prevent the default form submission
-        
-        // Get form values
-        const name = $('#name').val();
-        const email = $('#email').val();
-        const subject = $('#subject').val();
-        const message = $('textarea[name="message"]').val();
-        
-        // Construct the email body
-        const emailBody = `Name: ${name}\n\nMessage: ${message}`;
-        
-        // Update the form action with the dynamically constructed data
-        const form = $(this);
-        $.ajax({
-            url: form.attr('action'),
-            type: form.attr('method'),
-            data: {
-                name: name,
-                email: email,
-                subject: subject,
-                message: emailBody
-            },
-            success: function (response) {
-                $('.sent-message').show();
-                $('.error-message').hide();
-            },
-            error: function () {
-                $('.error-message').show();
-                $('.sent-message').hide();
-            }
-        });
-    });
-});

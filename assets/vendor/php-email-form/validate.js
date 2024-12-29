@@ -150,6 +150,16 @@
     var emailSubject = `Elise Studio: New message from portfolio`;
     var emailBody = `${message} sent by ${name} via ${email}`;
 
+    // Construct the mailto URL
+    const mailtoLink = `mailto:${receiverEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+
+    // Open the mail client
+    window.location = mailtoLink;
+
+        this_form.find('.loading').slideUp();
+        this_form.find('.sent-message').slideDown();
+        this_form.find("input:not(input[type=submit]), textarea").val('');
+
 
     // data: {
     //   "senderName":name,
@@ -160,46 +170,49 @@
     //   "portfolioTitle":"Elise Studio"
     // }
 
-    $.ajax({
-      type: "POST",
-      url: action,
-      data: {
-        "email":receiverEmail,
-            "emailSubject":emailSubject,
-            "emailBody":emailBody
-      },
-      timeout: 40000
-    }).done( function(msg){
-      if (msg.success) {
-        this_form.find('.loading').slideUp();
-        this_form.find('.sent-message').slideDown();
-        this_form.find("input:not(input[type=submit]), textarea").val('');
-      } else {
-        this_form.find('.loading').slideUp();
-        if(!msg) {
-          msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
-        }
-        this_form.find('.error-message').slideDown().html(msg);
-      }
-    }).fail( function(data){
-      console.log(data);
-      var error_msg = "Form submission failed!<br>";
-      if(data.statusText || data.status) {
-        error_msg += 'Status:';
-        if(data.statusText) {
-          error_msg += ' ' + data.statusText;
-        }
-        if(data.status) {
-          error_msg += ' ' + data.status;
-        }
-        error_msg += '<br>';
-      }
-      if(data.responseText) {
-        error_msg += data.responseText;
-      }
-      this_form.find('.loading').slideUp();
-      this_form.find('.error-message').slideDown().html(error_msg);
-    });
+    // Removed: Required a backend email service
+    // $.ajax({
+    //   type: "POST",
+    //   url: action,
+    //   data: {
+    //     "email":receiverEmail,
+    //         "emailSubject":emailSubject,
+    //         "emailBody":emailBody
+    //   },
+    //   timeout: 40000
+    // }).done( function(msg){
+    //   if (msg.success) {
+    //     this_form.find('.loading').slideUp();
+    //     this_form.find('.sent-message').slideDown();
+    //     this_form.find("input:not(input[type=submit]), textarea").val('');
+    //   } else {
+    //     this_form.find('.loading').slideUp();
+    //     if(!msg) {
+    //       msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
+    //     }
+    //     this_form.find('.error-message').slideDown().html(msg);
+    //   }
+    // }).fail( function(data){
+    //   console.log(data);
+    //   var error_msg = "Form submission failed!<br>";
+    //   if(data.statusText || data.status) {
+    //     error_msg += 'Status:';
+    //     if(data.statusText) {
+    //       error_msg += ' ' + data.statusText;
+    //     }
+    //     if(data.status) {
+    //       error_msg += ' ' + data.status;
+    //     }
+    //     error_msg += '<br>';
+    //   }
+    //   if(data.responseText) {
+    //     error_msg += data.responseText;
+    //   }
+    //   this_form.find('.loading').slideUp();
+    //   this_form.find('.error-message').slideDown().html(error_msg);
+    // });
+
+
   }
 
 })(jQuery);

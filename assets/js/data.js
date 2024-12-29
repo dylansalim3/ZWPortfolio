@@ -188,7 +188,7 @@ var portfolioData = {
             photoSlideshowList:[
                 "assets/img/portfolio/portfolio-details-1.jpg",
                 "assets/img/portfolio/portfolio-details-2.jpg",
-                
+
             ],
             client:"Garden Meet Point (Space Quality） ",
             date:"2019",
@@ -817,18 +817,12 @@ var portfolioData = {
             galleryPhoto: "assets/img/portfolio/3rd floor.jpg",
             photoSlideshowList:[
                 "assets/img/portfolio/3rd floor.jpg"
-                 
-               
             ],
             client:"Hive Hub Community Centre",
             date:"2020",
             url:"https://www.instagram.com/hoseh_bor/",
             desc:" Third Floor Plan ."
         },
-       
-
-
-
     ]
 }
 
