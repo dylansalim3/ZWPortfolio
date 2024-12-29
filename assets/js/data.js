@@ -6,8 +6,8 @@ var personalInfo = {
     linkedin: "https://www.linkedin.com/in/zhi-wei0319/",
     instagram: "https://www.instagram.com/hoseh_bor/",
     kuula: "https://kuula.co/share/72l6b?fs=1&vr=0&sd=1&thumbs=1&info=1&logo=1",
-    resume:"https://github.com/dylansalim3/ZWPortfolio/raw/master/assets/raw/LIM ZHI WEI_E-resume.pdf",
-    portfolio:"https://github.com/dylansalim3/ZWPortfolio/raw/master/assets/raw/LIM ZHI WEI_E-PORTFOLIO.pdf"
+    resume:"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ElizabethLim/picx-images-hosting/master/portfolio/CV_LIM_ZHI_WEI.pdf",
+    portfolio:"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ElizabethLim/picx-images-hosting/master/portfolio/PORTFOLIO_LIM_ZHI_WEI.pdf"
 }
 
 var aboutInfo = {
@@ -18,7 +18,7 @@ var aboutInfo = {
     linkedIn: "www.linkedin.com/in/elise",
     phone: "+6018-3155513",
     city: "Melaka",
-    degree: "Bachelor Degree of Architecture",
+    degree: "Master Degree of Architecture",
     email: "elizabeth-0319@hotmail.com",
     aboutDesc: "•Passionate in computer literacy from pre-thinking on development to post production, Proactive person, eager to learn, explore conceptual drawing and creative thinking, consistently working on personal studio project to upgrade architecture design skills and technical skills. "
 }
@@ -36,7 +36,7 @@ var skillsData = {
         },
         {
             name: "Lumion",
-            percentage: 80
+            percentage: 90
         },
         {
             name: "Revit (BIM)",
@@ -48,7 +48,7 @@ var skillsData = {
         },
         {
             name: " Photoshop, Ai, Substance, PremierePro， InDesign",
-            percentage: 70
+            percentage: 90
         },
         {
             name: "Microsoft Word, Excel, PowerPoint, Project ",
@@ -68,6 +68,13 @@ var resumeData = {
         ]
     },
     education: [
+        {
+            name:"Master Degree of Architecture",
+            year:"2022-2024",
+            institution:"Universiti Tunku Abdul Rahman (UTAR)",
+            desc:"Creative and detail-oriented Design Architect with over 3 years of professional and freelance experience in designing and curating exceptional residential and commercial spaces. Demonstrated success in translating client aspirations into functional, aesthetically striking designs while maintaining budget integrity. Expertise spans conceptual development, project execution, and client collaboration, consistently exceeding expectations through thoughtful architectural solutions."
+
+        },
         {
             name:"Bachelor Degree of Architecture",
             year:"2018-2020",
@@ -133,9 +140,26 @@ var resumeData = {
             company:"Work Room Design, Furniture Design, Community Space Post-Production",
             descList:[
                 "Design Concept, 2D&3D Rendering, Construction Plan, HDR Video "         
-
             ]     
-        }
+        },   
+        {
+           name:"Assistant Architect",
+           year:"2021 - 2022",
+           company:"IdeaWorkshop Sdn. Bhd.",
+           descList:[
+               "Developed detailed architectural drawings and construction documentation for residential, commercial, institute, and heritage restoration projects.",
+               "Created and refined 3D models and visualizations to communicate design concepts effectively to clients and stakeholders."  ,
+               "Conducted site assessments and collaborated with contractors to address design and construction challenges."   
+           ]     
+       },   
+        {
+           name:"Freelance",
+           year:"2022 - Present",
+           company:"",
+           descList:[
+               "Delivered end-to-end architectural solutions, seamlessly guiding projects from conceptualization to realization with a focus on client satisfaction and design excellence. "         
+           ]     
+       }
     ]
 }
 
