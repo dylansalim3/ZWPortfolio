@@ -20,7 +20,7 @@ var aboutInfo = {
     city: "Melaka",
     degree: "Master Degree of Architecture",
     email: "elizabeth-0319@hotmail.com",
-    aboutDesc: "•Passionate in computer literacy from pre-thinking on development to post production, Proactive person, eager to learn, explore conceptual drawing and creative thinking, consistently working on personal studio project to upgrade architecture design skills and technical skills. "
+    aboutDesc: "Creative and detail-oriented Design Architect with over 3 years of professional and freelance experience in designing and curating exceptional residential and commercial spaces. Demonstrated success in translating client aspirations into functional, aesthetically striking designs while maintaining budget integrity. Expertise spans conceptual development, project execution, and client collaboration, consistently exceeding expectations through thoughtful architectural solutions. "
 }
 
 var skillsData = {
@@ -71,8 +71,8 @@ var resumeData = {
         {
             name:"Master Degree of Architecture",
             year:"2022-2024",
-            institution:"Universiti Tunku Abdul Rahman (UTAR)",
-            desc:"Creative and detail-oriented Design Architect with over 3 years of professional and freelance experience in designing and curating exceptional residential and commercial spaces. Demonstrated success in translating client aspirations into functional, aesthetically striking designs while maintaining budget integrity. Expertise spans conceptual development, project execution, and client collaboration, consistently exceeding expectations through thoughtful architectural solutions."
+            institution:"Universiti Teknologi Malaysia (UTM)",
+            desc:""
 
         },
         {
