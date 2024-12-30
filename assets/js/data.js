@@ -72,7 +72,7 @@ var resumeData = {
             name:"Master Degree of Architecture",
             year:"2022-2024",
             institution:"Universiti Teknologi Malaysia (UTM)",
-            desc:""
+            desc:"-Successfully completed a two-year Master of Architecture program, focusing on urban design, social sustainability, and environmental sustainability.  - Thesis title: 'Exploring the Impact of Collective Spaces in Johor Bahru Urban Neighbourhoods on Community Well-Being and Cohesion.'"
 
         },
         {
@@ -100,8 +100,6 @@ var resumeData = {
             year:"2020 (Bronze Award Final Year Project Competition) ",
             institution:"Studio 5-6",
             desc:"Site Analysis of South Klang City Centre 1.0, Adaptive- Reuse Project Located at Heritage Area, The Royal Town of Klang 2.0 (Townscape Appraisal & Urban Intervention)-Hive Hub Community Centre"
-
-
         }
 
     ],
